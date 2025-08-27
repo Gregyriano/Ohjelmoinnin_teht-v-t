@@ -17,8 +17,16 @@ while i < toistojen_lkm:
 print(f"i:n arvo lopuksi: {i}")
 
 app_running = True
+# "main loop"
 while app_running:
     command = input("komento> ")
     print(f"komentosi oli: {command}")
     if command == "lopeta":
         app_running = False
+elif command == "laskukone"
+    luku1 = float(input("Anna ensimmäinen luku: "))
+    luku2 = float(input("Anna toka luku: "))
+    tulos_yhteenlasku = luku1 + luku2
+    print("Yhteenlaskutoimituksen tulos: ") + str(tulos_yhteenlasku)
+
+#kolikonheitto simulaattori
