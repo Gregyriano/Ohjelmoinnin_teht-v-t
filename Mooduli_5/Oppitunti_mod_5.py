@@ -47,7 +47,7 @@ print(type(toivottavasti))
 
 
 
-print("---------------------------")
+print("---------------------------0")
 
  #len, sum, max, min, count
 luvut = [1,43,5,6,6,7,8,9,46,65,76,6,465,6,6,6,6,6,6,6,6]
@@ -57,4 +57,68 @@ print(min(luvut))
 print(max(luvut))
 print(luvut.count(6))
 
+print("---------------------------1")
 
+i = 0
+while i < len(luvut):
+    #print(i)
+    print(luvut[i])
+    i += 1
+
+print("---------------------------2")
+
+for luku in luvut:
+    print(luku)
+
+print("---------------------------3")
+
+for kirjain in "ajsfdlkjadfjl":
+    print(kirjain)
+
+print("---------------------------4")
+
+for alkio in [1,2,3,4,5,6,7,8,9]:
+    print(alkio)
+
+print("---------------------------5")
+
+for kaupunki in kaupungit:
+    kaupungit.sort()
+    print(kaupunki)
+
+print("---------------------------6")
+
+
+for numero in range(5):
+    print(numero)
+
+print("---------------------------7")
+
+
+for n in range(4,80):
+    print(n)
+
+print("---------------------------8")
+
+for n in range(50,0,-2):
+    print(n)
+
+print("---------------------------9")
+
+
+pituus = len(luvut)
+#luvut = [1,43,5,6,6,7,8,9,46,65,76,6,465,6,6,6,6,6,6,6,6]
+
+for n in range(pituus):
+    print(n)
+    print(luvut[n])
+
+print("---------------------------10")
+
+for n in range(3):
+    print(luvut[n])
+
+print("---------------------------11")
+
+for n in range(3):
+    print(kaupungit[n])
