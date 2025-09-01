@@ -38,3 +38,23 @@ print(numerolista)
 
 viikonpäivät = {"maanantai", "Tiistai"}
 print(viikonpäivät)
+
+
+toivottavasti = True
+toivottavasti = "Totta"
+
+print(type(toivottavasti))
+
+
+
+print("---------------------------")
+
+ #len, sum, max, min, count
+luvut = [1,43,5,6,6,7,8,9,46,65,76,6,465,6,6,6,6,6,6,6,6]
+print(len(luvut)) # pituus
+print(sum(luvut))
+print(min(luvut))
+print(max(luvut))
+print(luvut.count(6))
+
+
