@@ -1,4 +1,7 @@
-kaupungit = ["Espoo", "Vantaa", "Helsinki", "Joensuu", "Lappeenranta"]
+numerot = [1,254,215484,151,1541551, 9999999]
 
-print(kaupungit[:3])
-print(kaupungit[-1])
+mini = min(numerot)
+maksi = max(numerot)
+
+print(mini)
+print(maksi)
