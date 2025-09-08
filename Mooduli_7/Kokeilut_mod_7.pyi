@@ -17,3 +17,5 @@ print(monikko[0])
 lista[0] = 0
 print("muokattulista",lista)
 
+
+
