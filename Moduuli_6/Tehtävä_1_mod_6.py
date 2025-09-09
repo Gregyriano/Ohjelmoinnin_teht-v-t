@@ -12,5 +12,5 @@ while app_run:
     if coin != 6:
         print(coin)
     else:
-        print(f"Sinun tulos: {coin}")
+        print(f"Sinun tuloksesi: {coin}")
         app_run = False
