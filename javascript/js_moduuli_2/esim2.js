@@ -103,3 +103,4 @@ console.log(hedelmät);
 
 //includes tsekkaa onko arvo taulukossa ja palautttaa true/false
 console.log(hedelmät.includes('Kivi'));
+

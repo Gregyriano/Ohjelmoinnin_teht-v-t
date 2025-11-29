@@ -67,4 +67,3 @@ Padik.aja_hissiä(3, 5)
 Padik.palohalytys()
 
 
-
