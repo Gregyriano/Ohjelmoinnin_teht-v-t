@@ -18,8 +18,11 @@ try:
         print(json.dumps(json_vastaus, indent = 2))
 #        print(json.dumps(json_vastaus1, indent = 2))
 #        print(json_vastaus["weather"])
-        print(json_vastaus["weather"][0]["description"])
+#        print(json_vastaus["main"]["temp"])
 #        print(json_vastaus1)
+        lämp = json_vastaus["main"]["temp"]
+        sää_paikassa = json_vastaus["weather"][0]["description"]
+        print(f"Sää kohteessa {city_name} on {sää_paikassa} ja lämpötila on {lämp:.0f} astetta")
 except requests.exceptions.RequestException as e:
     print(e)
     print ("Hakua ei voitu suorittaa.")

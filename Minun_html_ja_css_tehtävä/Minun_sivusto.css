@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Lato, sans-serif;
+    src: url("Lato-Regular.ttf") format("truetype");
+}
+
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+
+/* ========== GLOBAL RESET ========== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Lato, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #111111;
+  line-height: 1.6;
+}
+
+/* ========== HEADER ========== */
+header {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 1.5rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  max-width: 900px;
+  margin-bottom: 1rem;
+}
+
+/* ========== NAVIGATION ========== */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav a:focus,
+nav a:hover {
+  text-decoration: none;
+}
+
+/* ========== MAIN CONTENT ========== */
+main {
+  background-color: #ffffff;
+}
+
+/* Container matches PDF text width */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+/* Headings hierarchy */
+h2 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* ========== PRODUCTS SECTION ========== */
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.product {
+  border: 1px solid #cccccc;
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* ========== CONTACT SECTION ========== */
+address {
+  font-style: normal;
+  line-height: 1.8;
+}
+
+address a {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+footer nav ul {
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+

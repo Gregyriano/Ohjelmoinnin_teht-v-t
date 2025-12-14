@@ -104,3 +104,13 @@ for (let i = 1; i <= 5; i++) {
         console.log(i + ' times ' + j + ' is ' + multiplication + ".");
     }
 }
+
+let heads = 0, tails = 0; // let, because the values of the variables change later
+while (heads + tails < 100) {
+    const r = Math.random();
+    if (r>0.5)
+        heads++;
+    else
+        tails++;
+}
+console.log('Heads: ' + heads + ', tails: ' + tails)
